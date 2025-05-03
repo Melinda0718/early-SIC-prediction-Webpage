@@ -85,8 +85,18 @@ from xgboost import XGBClassifier
 from sklearn.feature_selection import RFECV
 from sklearn.model_selection import GridSearchCV
 
-importance_df = pd.read_csv("filled/Features_final.csv")
-top_features = importance_df.head(10)['Feature_Names'].values
+import os
+current_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(current_dir, "filled", "Features_final.csv")
+
+try:
+    importance_df = pd.read_csv(csv_path, encoding='utf-8')
+    top_features = importance_df.head(10)['Feature_Names'].values
+except FileNotFoundError:
+    st.error(f"文件未找到：{csv_path}")
+except Exception as e:
+    st.error(f"读取文件失败：{str(e)}")
+
 import re
 top_features = [re.sub(r'[^\x00-\x7F]+', '', f) for f in top_features]
 X_train = X_train[top_features]
