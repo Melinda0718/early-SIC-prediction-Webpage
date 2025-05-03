@@ -85,7 +85,7 @@ from xgboost import XGBClassifier
 from sklearn.feature_selection import RFECV
 from sklearn.model_selection import GridSearchCV
 
-importance_df = pd.read_csv("filled/Features_final.csv", encoding='utf-8')
+importance_df = pd.read_csv("filled/Features_final.csv")
 top_features = importance_df.head(10)['Feature_Names'].values
 import re
 top_features = [re.sub(r'[^\x00-\x7F]+', '', f) for f in top_features]
