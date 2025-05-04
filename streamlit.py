@@ -255,7 +255,7 @@ with st.form("prediction_form"):
     
     # 右侧列 - 实验室指标2
     with col_lab2:
-        st.markdown("blood Gas Analysis")
+        st.markdown("Blood Gas Analysis")
         lactate = st.number_input(
             "lactate (mmol/L)",
             min_value=0.5, max_value=15.0,
