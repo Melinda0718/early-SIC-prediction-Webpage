@@ -230,7 +230,7 @@ with st.form("prediction_form"):
     with col_vent:
         st.markdown("Respiratory Support")
         mech_vent_1 = st.radio(
-            "Mechine Ventilation Status on Day 1",
+            "Mechanical Ventilation Status on Day 1",
             options=("yes", "no"),
             index=1,
             help="Whether invasive mechanical ventilation was used on the first day of ICU admission.",
