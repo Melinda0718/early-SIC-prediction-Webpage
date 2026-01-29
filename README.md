@@ -1,5 +1,5 @@
-重症患者早期凝血病预警模型
-Early Coagulopathy Warning Model for Critically Ill Patients
+<h1 align="center"><strong>重症患者早期凝血病预警模型</strong></h1>
+<h2 align="center"><strong>Early Coagulopathy Warning Model for Critically Ill Patients</strong></h2>
 
 📌 **一、项目简介 / Project Overview**
 本项目旨在开发一个用于重症患者早期凝血病预警的机器学习模型，帮助临床医生提前识别患者的凝血功能异常风险。
