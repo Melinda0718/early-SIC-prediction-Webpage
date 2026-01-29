@@ -1,14 +1,14 @@
 重症患者早期凝血病预警模型
 Early Coagulopathy Warning Model for Critically Ill Patients
 
-📌 项目简介 / Project Overview
+**** 📌 一、项目简介** / Project Overview**
 本项目旨在开发一个用于重症患者早期凝血病预警的机器学习模型，帮助临床医生提前识别患者的凝血功能异常风险。
 This project aims to develop a machine learning model for early coagulopathy warning in critically ill patients, assisting clinicians in identifying the risk of coagulation abnormalities in advance.
 
 项目包含数据清洗、特征工程、模型训练与评估全流程，并提供了基于 Streamlit 的交互式演示界面。
 The project includes the entire pipeline of data cleaning, feature engineering, model training and evaluation, and provides an interactive demo interface based on Streamlit.
 
-📁 项目结构 / Project Structure
+** 📁 二、项目结构 / Project Structure**
 ```txt
 .
 ├── .devcontainer/          # 开发容器配置
@@ -24,7 +24,7 @@ The project includes the entire pipeline of data cleaning, feature engineering, 
 ```
 
 
-🚀 快速开始 / Quick Start
+🚀 **三、快速开始 / Quick Start**
 1. 克隆仓库 / Clone Repository
 
 使用代码块（推荐）：
@@ -52,27 +52,27 @@ streamlit run streamlit.py
 
 （注：代码块前添加语言标识如 `bash` 可以让很多渲染器显示为 shell 语法高亮）
 
-📊 数据说明 / Data Description
+📊 **四、数据说明 / Data Description**
 Raw Data/：包含原始示例数据及数据清洗流程示例，可用于理解数据处理过程。
 Cleaned/：存放已清洗并准备好用于建模的基线数据。
 filled/：存放 Streamlit 应用所需的预处理数据或配置文件。
 
-🧠 模型与管道 / Model & Pipeline
+🧠 **五、模型与管道 / Model & Pipeline**
 clean_split_scaled_onehot_impute_pipeline.py：实现数据预处理全流程，包括清洗、拆分、缩放、独热编码与缺失值处理。
 
 full_pipeline_sic.pkl：保存了训练好的完整机器学习管道（含预处理与模型），可直接加载用于预测。
 
-🌐 在线演示 / Online Demo
+🌐 **六、在线演示 / Online Demo**
 本项目支持通过 Streamlit 快速部署为 Web 应用，用户可通过上传数据或输入特征值获取凝血病风险预警结果。
 This project supports quick deployment as a web application via Streamlit, allowing users to upload data or input feature values to obtain early coagulopathy risk warnings.
 
-📌 依赖环境 / Requirements
+📌 **七、依赖环境 / Requirements**
 详见 requirements.txt
 
-📄 许可证 / License
+📄 **八、许可证 / License**
 本项目仅供学术研究或临床参考使用，具体使用请遵守相关伦理与法律法规。
 This project is for academic research or clinical reference only. Please comply with relevant ethical and legal regulations when using it.
 
-🤝 贡献 / Contribution and Request
+🤝 **九、贡献 / Contribution and Request**
 欢迎提交 Issue 或 Pull Request 来改进模型或应用。联系方式：gyz2002@126.com.
 Contributions are welcome via Issues or Pull Requests to improve the model or application. If Issues, contact gyz2002@126.com.
