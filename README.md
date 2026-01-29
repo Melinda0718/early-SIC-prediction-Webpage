@@ -1,14 +1,14 @@
 重症患者早期凝血病预警模型
 Early Coagulopathy Warning Model for Critically Ill Patients
 
-**** 📌 一、项目简介** / Project Overview**
+📌 **一、项目简介 / Project Overview**
 本项目旨在开发一个用于重症患者早期凝血病预警的机器学习模型，帮助临床医生提前识别患者的凝血功能异常风险。
 This project aims to develop a machine learning model for early coagulopathy warning in critically ill patients, assisting clinicians in identifying the risk of coagulation abnormalities in advance.
 
 项目包含数据清洗、特征工程、模型训练与评估全流程，并提供了基于 Streamlit 的交互式演示界面。
 The project includes the entire pipeline of data cleaning, feature engineering, model training and evaluation, and provides an interactive demo interface based on Streamlit.
 
-** 📁 二、项目结构 / Project Structure**
+📁 **二、项目结构 / Project Structure**
 ```txt
 .
 ├── .devcontainer/          # 开发容器配置
