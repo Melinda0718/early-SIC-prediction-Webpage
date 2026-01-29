@@ -9,6 +9,7 @@ This project aims to develop a machine learning model for early coagulopathy war
 The project includes the entire pipeline of data cleaning, feature engineering, model training and evaluation, and provides an interactive demo interface based on Streamlit.
 
 📁 项目结构 / Project Structure
+```txt
 .
 ├── .devcontainer/          # 开发容器配置
 ├── Raw Data/              # 原始数据（含示例数据与清洗流程示例）
@@ -20,6 +21,7 @@ The project includes the entire pipeline of data cleaning, feature engineering, 
 ├── full_pipeline_sic.pkl  # 训练好的完整管道（包含模型）
 ├── requirements.txt       # Python 依赖包列表
 └── streamlit.py           # Streamlit 应用入口文件
+```
 
 
 🚀 快速开始 / Quick Start
