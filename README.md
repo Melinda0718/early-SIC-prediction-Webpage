@@ -24,15 +24,31 @@ The project includes the entire pipeline of data cleaning, feature engineering, 
 
 🚀 快速开始 / Quick Start
 1. 克隆仓库 / Clone Repository
+
+使用代码块（推荐）：
+```bash
 git clone https://github.com/你的用户名/你的仓库名.git
 cd 你的仓库名
+```
+
+或者行内短命令（适合文中简短引用）：`git clone https://github.com/你的用户名/你的仓库名.git`
 
 2. 安装依赖 / Install Dependencies
-pip install -r requirements.txt
 
-4. 运行 Streamlit 应用 / Run Streamlit App
+使用命令行：
+```bash
+pip install -r requirements.txt
+```
+
+3. 运行 Streamlit 应用 / Run Streamlit App
+
+```bash
 streamlit run streamlit.py
+```
+
 随后在浏览器中打开提示的本地地址（通常为 http://localhost:8501）。
+
+（注：代码块前添加语言标识如 `bash` 可以让很多渲染器显示为 shell 语法高亮）
 
 📊 数据说明 / Data Description
 Raw Data/：包含原始示例数据及数据清洗流程示例，可用于理解数据处理过程。
